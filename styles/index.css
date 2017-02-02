@@ -1,0 +1,8 @@
+/* This file is processed by PostCSS, by default variables and nested rules are supported.
+   More rules can be added in rollup.config.js */
+
+$gray: #f0f0f0;
+
+body {
+  background: $gray;
+}

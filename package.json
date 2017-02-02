@@ -1,0 +1,36 @@
+{
+  "name": "typescript-rollup-skeleton",
+  "version": "1.0.0",
+  "description": "Typescript project skeleton",
+  "main": "index.js",
+  "jsnext:main": "index.es.js",
+  "browser": "index.cjs.js",
+  "repository": "https://github.com/psastras/typescript-rollup-skeleton.git",
+  "author": "Paul Sastrasinh <psastras@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.prod.js",
+    "watch": "rollup --watch -c rollup.config.dev.js"
+  },
+  "devDependencies": {
+    "@types/loglevel": "^1.4.29",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-livereload": "^0.4.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-postcss": "^0.2.0",
+    "rollup-plugin-serve": "^0.1.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-watch": "^3.2.2",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "loglevel": "^1.4.1"
+  }
+}
