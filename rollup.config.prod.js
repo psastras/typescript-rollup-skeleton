@@ -30,6 +30,9 @@ export default {
       ],
     }),
     image(),
+    babel({
+      exclude: 'node_modules/**'
+    }),
 
     // Locate modules using the Node resolution algorithm, for using third party modules 
     // in node_modules
