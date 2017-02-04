@@ -5,7 +5,8 @@ cache:
 install:
   - ps: Install-Product node $env:nodejs_version
   - yarn install
-build:
+build_script:
   - yarn build
 test_script:
   - yarn test
+build: off
