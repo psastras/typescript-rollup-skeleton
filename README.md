@@ -1,5 +1,7 @@
 # Rollup.js + Typescript Template
 
+[![Build status](https://ci.appveyor.com/api/projects/status/lggcm64oeycjut75?svg=true)](https://ci.appveyor.com/project/psastras/typescript-rollup-skeleton)
+
 Template project for developing and bundling a Typescript library with Rollup.js.
 
 Supports inlining css and images, and a development mode with hot reloading.
