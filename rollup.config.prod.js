@@ -3,6 +3,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss';
 import image from 'rollup-plugin-image';
+import babel from 'rollup-plugin-babel';
 
 // PostCSS plugins
 import simplevars from 'postcss-simple-vars';
