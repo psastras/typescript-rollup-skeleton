@@ -10,8 +10,8 @@ all commands with `yarn` to `npm` if you would rather not use Yarn.
 ## Development
 
 The template includes a development mode which watches and serves the library via the `index.html`
-page.  Changes to the library are automatically transpiled and hot-reloaded into the browser.
-To enable development mode, run the following command:
+page.  Changes to the library and tests are automatically transpiled, run and hot-reloaded into the
+ browser. To enable development mode, run the following command:
 
 ```shell
 yarn run watch
@@ -30,8 +30,4 @@ run:
 yarn run build
 ```
 
-Output is writted to the `dist/` folder.
-
-## Testing
-
-TODO
+Output is written to the `dist/` folder.
